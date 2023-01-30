@@ -1,0 +1,101 @@
+header, footer{
+    color: white;
+    background-color: #daad86;
+    margin: 0em 4em 0.5em 4em;
+}
+
+h1, h2, h3, nav, footer{
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 0.75em;
+}
+
+h3{
+    font-size: 1.125em;
+}
+
+nav{
+    font-size: 1.125em;
+}
+
+body{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background-color: #98dafc;
+}
+
+a:link{
+    color: #98dafc;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #daad86
+}
+
+a:hover{
+    background-color: #FFFFCC;
+}
+
+.body-head, footer{
+    background-color: #312C32;
+    color: white;
+}
+
+#large-img-2{
+    border: solid black;
+    width: 98%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+}
+
+.socials{
+    background-image: url("/images/gray-gradient.png");
+    border-radius: 0.25em;
+    padding-left: 1%;
+}
+
+span.a{
+    display: inline-block;
+    vertical-align: center;
+}
+
+span.b{
+    display:inline-block;
+    font-size: 70%;
+    vertical-align: center;
+}
+
+span.c{
+    display:inline-block;
+    vertical-align: center;
+}
+
+.byline{
+    border-top: solid lightgrey;
+    padding-top:0.5%;
+
+    border-bottom: dotted lightgrey;
+    margin-bottom: 0.5%;
+}
+
+.body-contents{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.body-head{
+    margin-left: 5%;
+    margin-right: 5%;
+}
